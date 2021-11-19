@@ -1,0 +1,55 @@
+// html {
+//   // background: cornflowerblue;
+//   background: #c6ffdd; /* fallback for old browsers */
+//   background: -webkit-linear-gradient(
+//     to right,
+//     #f7797d,
+//     #fbd786,
+//     #c6ffdd
+//   ); /* Chrome 10-25, Safari 5.1-6 */
+//   background: linear-gradient(
+//     to right,
+//     #f7797d,
+//     #fbd786,
+//     #c6ffdd
+//   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+// }
+.login {
+  margin: 9em auto 0;
+  width: 50%;
+  border: 3px solid transparent;
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+  max-width: 20em;
+  border-radius: 25px;
+
+  h2 {
+    margin-bottom: 3em;
+  }
+
+  &-google {
+    font-size: 17px;
+    border: 3px solid transparent;
+    background-color: cornflowerblue;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    padding: 0.5em 0;
+    margin-bottom: 2em;
+    cursor: pointer;
+  }
+  &-facebook {
+    font-size: 18px;
+    border: 3px solid transparent;
+    background-color: #3f64ab;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    padding: 0.5em 0;
+    margin-bottom: 3em;
+    cursor: pointer;
+  }
+}
