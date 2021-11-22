@@ -97,8 +97,8 @@ const Chat =()=>{
             </div>
             <ChatEngine
             
-            height="calc(100vh-66px)"
-            // height="calc(100vh)"
+            // height="calc(100vh-66px)"
+            height="calc(89vh)"
 
             projectID={process.env.REACT_APP_CHAT_ENGINE_PROJECTID}
             userName={user.email}
