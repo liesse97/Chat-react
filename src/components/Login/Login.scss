@@ -1,18 +1,25 @@
+html {
+  // background: cornflowerblue;
+  background: #0b7975; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(11, 121, 117, 1) 56%,
+    rgba(0, 0, 0, 1) 10%
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(11, 121, 117, 1) 56%
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 // html {
-//   // background: cornflowerblue;
-//   background: #c6ffdd; /* fallback for old browsers */
-//   background: -webkit-linear-gradient(
-//     to right,
-//     #f7797d,
-//     #fbd786,
-//     #c6ffdd
-//   ); /* Chrome 10-25, Safari 5.1-6 */
+//   background: rgb(0, 0, 0);
 //   background: linear-gradient(
-//     to right,
-//     #f7797d,
-//     #fbd786,
-//     #c6ffdd
-//   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//     1deg,
+//     rgba(0, 0, 0, 1) 10%,
+//     rgba(11, 121, 117, 1) 56%
+//   );
 // }
 .login {
   margin: 9em auto 0;
